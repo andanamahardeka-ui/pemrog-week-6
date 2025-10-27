@@ -6,7 +6,7 @@ int umur;
 string nik;
 };
 int main() {
-Mahasiswa mhs1;
+Mahasiswa mhs1, mhs2;
 mhs1.nama = "Andi";
 mhs1.umur = 20;
 mhs1.nik = "1234567890123456";
@@ -21,3 +21,4 @@ cout << "Umur: " << mhs2.umur << endl;
 cout << "Nilai: " << mhs2.nik << endl;
 return 0;
 }
+
